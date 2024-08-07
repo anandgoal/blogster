@@ -1,0 +1,16 @@
+{
+  "name": "blogster_webapis",
+  "version": "1.0.0",
+  "description": "webapis of blogster project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webapis",
+    "for",
+    "blogster"
+  ],
+  "author": "rahulanand",
+  "license": "ISC"
+}
