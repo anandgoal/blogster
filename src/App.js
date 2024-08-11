@@ -1,17 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import PostList from './components/PostList';
+import Sidebar from './components/Sidebar';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div className="app">
+      <Header />
+      <div className="container mt-4">
+        <div className="row">
+          <div className="col-md-8">
+            <PostList />
+          </div>
+          <Sidebar />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
