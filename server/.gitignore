@@ -1,0 +1,22 @@
+node_modules/
+.vscode
+package-lock.json
+yarn.lock
+.cache/
+public/static
+*.marko.js
+.env.example
+.env
+.logs/*.log
+dist/
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+/.pm2.json
+/.env
