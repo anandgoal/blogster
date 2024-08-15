@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Placeholder from '../assets/images/blog.jpg'; 
 import axios from 'axios';
 
 const PostList = () => {
@@ -31,14 +32,14 @@ const PostList = () => {
 
 
   return (
-    <main className="container mt-4">
+    <main className="container mt-4 post-card">
       <h1>Posts</h1>
       <div className="row">
         
       {posts.slice(0, visiblePosts).map(post => (
              <div class=" col-md-4" >
             <div class="card" key={post.id}>
-          
+            <img src={Placeholder} class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">{post.title}</h5>
               <p class="card-text">{post.body}</p>

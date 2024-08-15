@@ -5,7 +5,7 @@ const Sidebar = () => {
   const categories = ['Technology', 'Health', 'Lifestyle', 'Business'];
 
   return (
-    <aside className="col-md-4">
+    <aside className="col-md-3 sidebar">
       <div className="card">
         <div className="card-header">
           Categories
